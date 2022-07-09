@@ -1,0 +1,143 @@
+*,
+*::before,
+* ::after {
+    box-sizing: border-box;
+}
+
+body{
+    background: white;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 30%;
+}
+
+.card{
+    border: 1px solid #ccc;
+    width: 614px;
+    
+}
+
+.card-header{
+    
+    height: 60px;
+    padding: 16px;
+    margin: 0;
+    vertical-align: middle;
+
+}
+
+.card-user-image{
+    width: 32px;
+    height: 32px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    float: left;
+}
+
+.card-user-name{
+    float: left;
+    margin-top: 0.5rem;
+    font-weight: bold;
+    color: #5dbfee;
+    margin-left: 0.5rem;
+}
+
+.card-news{
+    float: left;
+    margin-top: 0.5rem;
+    margin-left: 0.2rem;
+}
+
+.card-time{
+    float: left;
+    color: #616b74;
+    margin-left: -265px;
+    font-size: 11px;
+ 
+}
+
+.card-action{
+    float: right;
+    margin-top: 0.5rem;
+    font-weight: bold
+}
+
+.card-image{
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+}
+
+.card-icon{
+    margin-left: 10px;
+    float: left;
+}
+.card-action-text{
+    color: #616b74;
+    margin-left: 10px;
+    float: left;
+}
+
+.card-comment-container{
+    background: #f5f5f5;
+    width: 100%;
+    padding: 10px;
+}
+
+.card-comment-dropdown{
+    float: left;
+}
+
+.card-comment-name{
+    color: black;
+    font-size: 12px;
+    font-weight: bolder;
+    margin-left: 40px;
+    
+}
+.card-comment-time{
+    color: #616b74;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.card-comment-text{
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.card-comment-reply{
+    color: #5dbfee;
+    font-size: 12px;
+    font-weight:bolder;
+    margin-left: 40px;
+}
+
+.card-icon-reply{
+    margin-left: 20px;
+    color: #000;
+}
+
+.textarea{
+    margin-left: 10px;
+    width: 90%;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 12px;
+    resize: none;
+}
+
+.button{
+    margin-left: 40px;
+    margin-top: 10px;
+    background-color: #039be5;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
